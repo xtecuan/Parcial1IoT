@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Pagina Web Controlar Lampara</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>Tabla de controles Parcial1</caption>
+        <tr>
+            <th>Descripcion</th>
+            <th>Accion</th>
+        </tr>
+        <tr>
+            <td>Apagar Lampara</td>
+            <td>
+                <form method="GET" action="/lamp01/apagar">
+                    <input type="submit" value="Apagar" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Encender Lampara</td>
+            <td>
+                <form method="GET" action="/lamp01/encender">
+                    <input type="submit" value="Encender" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Luz media -  Lampara</td>
+            <td>
+                <form method="GET" action="/lamp01/medialuz">
+                    <input type="submit" value="Media Luz" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Apagar TV</td>
+            <td>
+                <form method="GET" action="/tv01/apagar">
+                    <input type="submit" value="Apagar" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Encender TV</td>
+            <td>
+                <form method="GET" action="/tv01/encender">
+                    <input type="submit" value="Encender" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Cafetera Apagar</td>
+            <td>
+                <form method="GET" action="/cafe01/apagar">
+                    <input type="submit" value="Apagar" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Cafetera Encender</td>
+            <td>
+                <form method="GET" action="/cafe01/encender">
+                    <input type="submit" value="Encender" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Colocar llave a las puertas, cerrar la ventana y encender la lámpara de mesa</td>
+            <td>
+                <form method="GET" action="/all/closeandlock">
+                    <input type="submit" value="Custom Action (Cerrar)" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Quitar llave a las puertas, abrir la ventana y apagar la lámpara de mesa</td>
+            <td>
+                <form method="GET" action="/all/openunlock">
+                    <input type="submit" value="Custom Action (Abrir)" />
+                </form>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
